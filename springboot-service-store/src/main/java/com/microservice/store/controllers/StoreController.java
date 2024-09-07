@@ -18,7 +18,7 @@ public class StoreController {
 	
 	@Autowired
 	@Qualifier("serviceRest")
-	private StoreService storeService; 
+	private StoreService storeService;
 	
 	@GetMapping("/list")
 	public List<Store> list() {
