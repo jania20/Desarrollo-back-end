@@ -12,5 +12,7 @@ public class SpringbootServiceStoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootServiceStoreApplication.class, args);
+		
+		
 	}
 }
